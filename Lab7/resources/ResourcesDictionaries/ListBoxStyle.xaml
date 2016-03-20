@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}"
+                   Color= "LightSlateGray" />
+
+    <Style x:Key="DefaultListBoxStyle" TargetType="ListBoxItem">
+        <Setter Property="Background" Value="LightSteelBlue" />
+        <Setter Property="Margin" Value="3" />
+        <Setter Property="Padding" Value="3" />
+        <Style.Triggers>
+            <Trigger Property="IsSelected" Value="True">
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="FontWeight" Value="Bold" />
+                <Setter Property="BorderThickness" Value="2"></Setter>
+                <Setter Property="BorderBrush" Value="Black"></Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+</ResourceDictionary>

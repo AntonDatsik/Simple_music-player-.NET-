@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="m_PlayList">Плей лист</v:String>
+    <v:String x:Key="m_PlayListNow">Воспр. сейчас</v:String>
+    <v:String x:Key="m_Musicname">Имя</v:String>
+    <v:String x:Key="m_MusicDuration">Продолжительность</v:String>
+    <v:String x:Key="m_MusicGenre">Жанры</v:String>
+    <v:String x:Key="m_MusicPerformer">Исполнитель</v:String>
+    <v:String x:Key="m_MusicAlbum">Альбом</v:String>
+    <v:String x:Key="m_langth">Длина</v:String>
+    <v:String x:Key="m_grade">Оценка(1..10)</v:String>
+    <v:String x:Key="m_menu_Language">Язык</v:String>
+    <Color x:Key="back" R="0" G="0" B="0"></Color>
+</ResourceDictionary>
